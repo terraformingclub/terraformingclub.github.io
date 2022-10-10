@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Resource from './components/resource/resource';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Resource resourceClassName="resource-megacredit"></Resource>
+      <Resource resourceClassName="resource-steel"></Resource>
+      <Resource resourceClassName="resource-titanium"></Resource>
+      <Resource resourceClassName="resource-plants"></Resource>
+      <Resource resourceClassName="resource-energy"></Resource>
+      <Resource resourceClassName="resource-heat"></Resource>
     </div>
   );
 }

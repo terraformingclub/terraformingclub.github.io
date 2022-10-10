@@ -1,0 +1,55 @@
+.resource-div {
+    width: 33.333%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+    background-position: center;
+    display: flex;
+}
+
+.resource-value {
+    position: relative;
+    left: -45%;
+    top: 35%;
+    color: white;
+    font-size: 300%;
+}
+
+.resource-megacredit {
+    background-image: url("../../images/megacredit.png");
+}
+
+.resource-plants {
+    background-image: url("../../images/plants.png");
+}
+
+.resource-steel {
+    background-image: url("../../images/steel.png");
+}
+
+.resource-titanium {
+    background-image: url("../../images/titanium.png");
+}
+
+.resource-energy {
+    background-image: url("../../images/energy.png");
+}
+
+.resource-heat {
+    background-image: url("../../images/heat.png");
+}
+
+button {
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+p {
+    position: relative;
+    color: white;
+    top: -50vh;
+    font-size: 30px;
+}
