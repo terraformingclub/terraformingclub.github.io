@@ -3,11 +3,15 @@ import './App.css';
 import Resource from './components/resource/resource';
 import useScreenOrientation from 'react-hook-screen-orientation'
 import { Fragment } from 'react';
+let peepo = require('./images/peepo.gif')
+let hashbullah = require('./images/hashbullah.gif')
 
 function App() {
   const screenOrientation = useScreenOrientation();
   let content = null
-
+  let rnd = Math.floor(Math.random() * 10);
+  let randomImage = rnd < 5 ? peepo : hashbullah
+  
   if (screenOrientation === "landscape-primary" || screenOrientation === "landscape-secondary") {
     content = 
     <div className="App">
@@ -21,7 +25,7 @@ function App() {
   }else {
     content = 
     <div className="portrait-div">
-      Tarn araun plis
+      <img src={randomImage} alt=""></img>
     </div>
   }
 
