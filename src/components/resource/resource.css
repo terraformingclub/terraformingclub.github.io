@@ -2,17 +2,22 @@
     width: 33.333%;
     height: 50%;
     background-repeat: no-repeat;
-    background-size: 70% 90%;
+    background-size: 58% 95%;
     background-position: center;
     display: flex;
 }
 
 .resource-value {
-    position: relative;
-    left: -45%;
-    top: 35%;
-    color: white;
-    font-size: 300%;
+    position: absolute;
+    height: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+.resource-megacredit {
+
 }
 
 .resource-megacredit {
@@ -44,12 +49,15 @@ button {
     width: 50%;
     background-color: transparent;
     border: none;
-    color: red;
+    color: rgb(255, 255, 255);
+    font-size: 500%;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 p {
     position: relative;
-    color: white;
+    color: black;
     top: -50vh;
     font-size: 30px;
 }
